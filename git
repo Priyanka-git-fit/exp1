@@ -1,0 +1,31 @@
+mkdir priyanka 
+cd priyanka
+pwd 
+git init
+got config --global user.name priyanka
+git config --global user.emailid priyankahwork2004@gmail.com
+touch dot.txt
+git status
+git add .
+git commit -m "file created"
+git status
+git log
+vi pk.txt
+git add .
+git commit -m  "added file"
+git status
+git log
+
+git branch new
+git branch
+git checkout new
+git branch
+vi pk1.txt
+git add .
+git commit -m "edited file"
+git status
+git checkout main
+git log
+git merge new
+git checkout new
+
